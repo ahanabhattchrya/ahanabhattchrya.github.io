@@ -1,0 +1,238 @@
+.main {
+  display: flex;
+  min-height: 93vh;
+  background-color: var(--primary-color);
+}
+
+.main ::selection {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.description {
+  /* display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono); */
+  /* padding: 0 30px;
+  width: 80%;
+  max-width: 1000px; */
+  padding-top: 120px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description hr {
+  border: 2px solid var(--secondary-color);
+  width: 10%;
+  border-radius: 10px;
+}
+
+.description p {
+  color: var(--primary-text-color);
+  line-height: 30px;
+  text-align: center;
+}
+
+.textBox {
+  max-width: 600px;
+  margin: auto;
+}
+
+.textBox a {
+  /* border-bottom: 2px solid var(--secondary-color); */
+  color: var(--secondary-color)
+}
+
+.textBox a:hover{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.centerImage {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.center::before {
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+}
+
+.center::after {
+  width: 240px;
+  height: 180px;
+  z-index: -1;
+}
+
+.center::before,
+.center::after {
+  content: "";
+  left: 50%;
+  position: absolute;
+  filter: blur(45px);
+  transform: translateZ(0);
+} */
+
+.headshot {
+  position: relative;
+  /* border-radius: 50%; */
+  padding: 8px;
+  border: 2px solid var(--secondary-color);
+}
+
+.divider {
+  margin: 40px auto;
+}
+
+.readingList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.readingListStatus {
+  border: 3px solid var(--secondary-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 40px;
+  width: 45%;
+  margin: 20px auto;
+}
+
+.readingList ul {
+  list-style-position: inside;
+  color: var(--primary-text-color);
+}
+
+.readingList li::marker{
+  color: var(--secondary-color);
+}
+
+.readingList hr {
+  border: 1px solid var(--secondary-color);
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.readingListText {
+  font-size: 20px;
+  margin: auto;
+}
+
+.readingListStatus {
+  font-size: 15px;
+  width: 45%;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .card:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 1049px) {
+  .description {
+      width: 80%;
+      /* max-width: 1000px; */
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .main {
+    padding-top: 9rem;
+  }
+
+  .description {
+      padding: 0;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+/* @media only screen and (min-width: 550px) and (max-width: 1399px) {
+  /* .main {
+    padding: 8rem 1rem 0rem 1rem;
+  } */
+  
+  /* .textBox {
+    margin: auto;
+  } */
+
+  /* .readingList {
+    flex-direction: row;
+  } */
+
+  /* .readingListStatus {
+    width: 45%;
+  } */
+
+  /* .description {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+  } */
+
+  /* @media only screen and (min-width: 1300px) {
+    /* .textBox {
+      margin: auto;
+    }
+   */
+    /* .center {
+      margin: auto;
+    } */
+  
+    /* .readingList {
+      flex-direction: row;
+    } */
+  
+    /* .readingListStatus {
+      width: 45%;
+    }
+  
+    .description {
+        padding: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+} */

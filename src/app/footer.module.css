@@ -1,0 +1,55 @@
+.footerBlock {
+    /* width: 100%;
+    /* min-height: 10vh; 
+    position: relative;
+    text-align: left;
+    color: var(--secondary-text-color);
+    padding: 10px 40px;
+    font-size: 15px;
+    background-color: var(--primary-color); */
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 7vh;
+    /* margin-bottom: 1vh; */
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    row-gap: 15px;
+    /* width: 6vw; */
+    justify-content: center;
+}
+
+.gmail {
+    width: 1.5em;
+    height: 1.5em;
+    fill: var(--secondary-text-color);
+}
+
+.linkedin {
+    width: 1.5em;
+    height: 1.5em;
+    fill: var(--secondary-text-color);
+}
+.footerText {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.footer ::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-text-color);
+}
+
+@media only screen and (max-width: 1049px) {
+    .footerText {
+        text-align: center;
+    }
+}

@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 2rem 0rem 2rem;
+    min-height: 93vh;
+    margin: auto;
+    background-color: var(--primary-color);
+}
+
+.main p{
+    color: var(--primary-text-color)
+}
+

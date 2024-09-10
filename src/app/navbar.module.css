@@ -1,0 +1,136 @@
+.header {
+    background-color: var(--primary-color);
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.header ::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    /* padding: 0 30px; */
+    max-width: 429px;
+    /* display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    /* This flex fixes the problem of the title 
+    stretching across the entire screen*/
+}
+
+.nameBlock {
+    /* width: 110px; */
+    display: flex;
+    flex-direction: column;
+}
+.header_title {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 1;
+    color: var(--primary-text-color);
+    /* width: 150px */
+}
+
+.pronouns {
+    font-size: 12px;
+    color: var(--secondary-text-color);
+    /* width: 55px; */
+}
+
+.pronouns a {
+    display: inline;
+}
+
+.menu {
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    width: 30vw;
+    max-width: 500px;
+}
+
+.menu_list{
+    list-style: none;
+}
+
+.menu_list_item{
+    display: flex;
+    justify-content: space-between;
+    /* row-gap: 30px; */
+}
+
+.menu_list_item_link {
+    padding: 0 0 2px;
+    color: var(--primary-text-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+
+.menu_list_item_link:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color)
+}
+
+.menu_list_item_link.active{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 1049px) {
+    .header_title {
+        font-size: 25px;
+    }
+
+    .pronouns {
+        font-size: 17px;
+    }
+
+    .nameBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: none;
+    }
+
+    .menu {
+        position: relative;
+        transform: none;
+        width: 50vw;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: none;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .menu {
+        width: 80vw;
+    }
+}
+
+
+
+
+

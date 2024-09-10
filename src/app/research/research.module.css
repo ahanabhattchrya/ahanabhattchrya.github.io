@@ -1,0 +1,126 @@
+.main {
+    display: flex;
+    padding: 7rem 5rem 0rem 5rem;
+    /* min-height: 100vh; */
+    background-color: var(--primary-color);
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.main ::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.main p{
+    color: var(--primary-text-color)
+}
+
+.interest {
+    border: 2px solid var(--secondary-color);
+    padding: 15px;
+    max-width: 70%;
+    line-height: 25px;
+}
+
+.interest p {
+    padding: 5px;
+}
+
+.interest b{
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.interest hr {
+    border: 1px solid var(--secondary-color);
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+
+.interestTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.papers {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 70%;
+    padding-bottom: 20px;
+}
+
+.papers p {
+    line-height: 30px;
+}
+
+.papers b {
+    background-color: var(--secondary-color);
+    color: var(--primary-color)
+}
+.papers h2{
+    color: var(--secondary-color);
+}
+
+.papers h3{
+    color: var(--primary-text-color);
+    padding-top: 15px;
+}
+.ongoing {
+    padding: 5px;
+}
+
+.ongoingTitle {
+    /* font-size: 25px; */
+    padding-bottom: 5px;
+}
+
+.projectDescription p{
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.review {
+    padding: 5px
+}
+
+.reviewTitle {
+    /* font-size: 25px; */
+    padding-bottom: 5px;
+}
+
+.coauthors {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.abstract p{
+    padding-top: 10px;
+}
+@media only screen and (max-width: 1049px) {
+    .interest {
+        max-width: 80%;
+    }
+
+    .main {
+        padding: 9rem 0rem 0rem 0rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .interest {
+        max-width: 80%;
+    }
+
+    .papers {
+        max-width: 80%;
+    }
+}
