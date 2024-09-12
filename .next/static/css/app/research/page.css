@@ -1,0 +1,129 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/research/research.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.research_main__jvZQ8 {
+    display: flex;
+    padding: 7rem 5rem 0rem 5rem;
+    /* min-height: 100vh; */
+    background-color: var(--primary-color);
+}
+
+.research_content__4TgIF {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.research_main__jvZQ8 ::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.research_main__jvZQ8 p{
+    color: var(--primary-text-color)
+}
+
+.research_interest__NunHn {
+    border: 2px solid var(--secondary-color);
+    padding: 15px;
+    max-width: 60%;
+    line-height: 25px;
+}
+
+.research_interest__NunHn p {
+    padding: 5px;
+}
+
+.research_interest__NunHn b{
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.research_interest__NunHn hr {
+    border: 1px solid var(--secondary-color);
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+
+.research_interestTitle__weqoA {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.research_papers__Nf7_a {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+.research_papers__Nf7_a p {
+    line-height: 30px;
+}
+
+.research_papers__Nf7_a b {
+    background-color: var(--secondary-color);
+    color: var(--primary-color)
+}
+.research_papers__Nf7_a h2{
+    color: var(--secondary-color);
+}
+
+.research_papers__Nf7_a h3{
+    color: var(--primary-text-color);
+    padding-top: 15px;
+}
+.research_ongoing__OLVao {
+    padding: 5px;
+}
+
+.research_ongoingTitle__l32F9 {
+    /* font-size: 25px; */
+    padding-bottom: 5px;
+}
+
+.research_projectDescription__Zdc7Y p{
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.research_review__F1h4K {
+    padding: 5px
+}
+
+.research_reviewTitle__Nvwft {
+    /* font-size: 25px; */
+    padding-bottom: 5px;
+}
+
+.research_coauthors__PUOnm {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.research_abstract__lZrrO p{
+    padding-top: 10px;
+}
+@media only screen and (max-width: 1049px) {
+    .research_interest__NunHn {
+        max-width: 80%;
+    }
+
+    .research_main__jvZQ8 {
+        padding: 9rem 0rem 0rem 0rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .research_interest__NunHn {
+        max-width: 80%;
+    }
+
+    .research_papers__Nf7_a {
+        max-width: 80%;
+    }
+}
