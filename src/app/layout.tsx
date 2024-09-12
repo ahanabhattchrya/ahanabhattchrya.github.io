@@ -3,12 +3,13 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./navbar"
 import Footer from "./footer"
+import { Head } from "next/document";
 
 const jbmono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ahana Bhattacharya",
-  description: "Ahana's Personal Site <3",
+  description: "Ahana's Personal Site <3"
 };
 
 export default function RootLayout({
@@ -18,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="view-transition" content="same-origin" />
+      </head>
       <body className={jbmono.className}>
         <Navbar />
         {children}

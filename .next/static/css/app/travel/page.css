@@ -1,0 +1,19 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/travel/travel.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.travel_main__tHLDJ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 2rem 0rem 2rem;
+    min-height: 93vh;
+    margin: auto;
+    background-color: var(--primary-color);
+}
+
+.travel_main__tHLDJ p{
+    color: var(--primary-text-color)
+}
+
+

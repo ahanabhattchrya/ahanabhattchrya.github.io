@@ -17,6 +17,18 @@
       "static/chunks/main-app.js",
       "static/css/app/research/page.css",
       "static/chunks/app/research/page.js"
+    ],
+    "/travel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/travel/page.css",
+      "static/chunks/app/travel/page.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/contact/page.css",
+      "static/chunks/app/contact/page.js"
     ]
   }
 }

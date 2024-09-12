@@ -1,0 +1,70 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/contact/contact.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.contact_main__SQQdP {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10rem 5rem 0rem 5rem; */
+    background-color: var(--primary-color);
+    margin: auto;
+    min-height: 93vh;
+}
+
+.contact_main__SQQdP p{
+    color: var(--primary-text-color);
+    line-height: 30px;
+}
+
+.contact_main__SQQdP a{
+    /* border-bottom: 2px solid var(--secondary-color);*/
+    color: var(--secondary-color)
+}
+
+.contact_main__SQQdP a:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color)
+}
+
+.contact_main__SQQdP ::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.contact_coffeeShops__fCON3 {
+    border: 3px solid var(--secondary-color);
+    padding: 10px;
+    /* margin: 20px 200px; */
+    /* width: 20vw; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_text__cAgI3 {
+    margin: auto;
+    width: 55%; 
+}
+
+.contact_text__cAgI3 ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 60px;
+}
+
+.contact_text__cAgI3 li {
+    color: var(--primary-text-color);
+    font-size: 15px;
+    list-style-position: inside;
+    /* display: inline; */
+}
+
+@media only screen and (max-width: 1049px) {
+    .contact_main__SQQdP {
+        padding: 8rem 0rem 0rem 0rem;
+    }
+
+    .contact_text__cAgI3 {
+        width: 80vw;
+    }
+} 
