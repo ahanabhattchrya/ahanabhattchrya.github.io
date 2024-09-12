@@ -19,9 +19,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="view-transition" content="same-origin" />
-      </head>
       <body className={jbmono.className}>
         <Navbar />
         {children}
