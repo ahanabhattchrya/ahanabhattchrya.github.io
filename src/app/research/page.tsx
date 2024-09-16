@@ -30,7 +30,7 @@ export default function Research() {
                     <div className={styles.review}> 
                         <h2 className={styles.reviewTitle}>Under Review</h2>
                         <h3> The &#39;Who,&#39; &#39;How,&#39; and &#39;When,&#39; of Elite Political Discourse on Twitter/X Before and After the Murder of George Floyd.</h3>
-                        <div className={styles.coauthors}> Alyssa Smith, Ahana Bhattacharya, Holliday Sims, Kenneth Joseph</div>
+                        <div className={styles.coauthors}> Alyssa Smith, <u>Ahana Bhattacharya</u>, Holliday Sims, Kenneth Joseph</div>
                         {/* <div className={styles.conference}></div> */}
                         <div className={styles.abstract}>
                             <p><b>Abstract</b>: Most U.S. Twitter/X users are not exposed to, and do not engage with, much political talk on average, yet strong evidence indicates that many Americans 
@@ -48,7 +48,7 @@ export default function Research() {
                         </div>
 
                         <h3> Justice in Child Welfare Policy: Towards the Development of a Contextual Ethics Framework for Deployment of AI in Human Service Systems.</h3>
-                        <div className={styles.coauthors}>Maria Rodriguez, Seventy Hall, Kenneth Joseph, Ahana Bhattacharya, Benson Cai, Hannah Wilcox, and Connor Wurst</div>
+                        <div className={styles.coauthors}>Maria Rodriguez, Seventy Hall, Kenneth Joseph, <u>Ahana Bhattacharya</u>, Benson Cai, Hannah Wilcox, and Connor Wurst</div>
                         {/* <div className={styles.conference}></div> */}
                         <div className={styles.abstract}>
                             <p><b>Abstract</b>: Scholars investigating AI in high stakes settings have proposed ML solutions ranging from reformist to progressive, attempting to adjudicate between justice as equity and 
