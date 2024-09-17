@@ -60,6 +60,9 @@ export default function Research() {
                         </div>
                     </div>
                 </div>
+                <div className={styles.cvCite}>
+                    <p>my CV template can be found <u><a href="https://github.com/SebastinSanty/Just-Another-Research-CV">here</a></u>.</p>
+                </div>
             </div>
         </main>
     );
