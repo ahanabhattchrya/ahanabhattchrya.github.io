@@ -19,7 +19,7 @@ export default function Navbar(){
                     <ul className={styles.menu_list}>
                         <li className={styles.menu_list_item}>
                             <Link href="/research" className={`${styles.menu_list_item_link} ${router == '/research' ? styles.active : ''}`}>Research</Link>
-                            <Link href="/research" className={`${styles.menu_list_item_link} ${router == '/research' ? styles.active : ''}`}>CV</Link>
+                            <Link href="/ahana_cv.pdf" className={`${styles.menu_list_item_link} ${router == '/ahana_cv.pdf' ? styles.active : ''}`}>CV</Link>
                             <Link href="/travel" className={`${styles.menu_list_item_link} ${router == '/travel' ? styles.active : ''}`}>Travel</Link>
                             <Link href="/contact" className={`${styles.menu_list_item_link} ${router == '/contact' ? styles.active : ''}`}>Coffee?</Link>
                         </li>

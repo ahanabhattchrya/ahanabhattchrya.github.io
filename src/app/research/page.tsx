@@ -14,7 +14,7 @@ export default function Research() {
                     <div className={styles.ongoing}>
                         <h2 className={styles.ongoingTitle}>Ongoing Paper(s)</h2>
                         <div className={styles.projectDescription}>
-                            <p><b>Project Description</b>: Machine learning (ML) models are increasingly being used in a wide range of application
+                            <p><b>Project Description</b>: Machine learning (ML) models are being increasingly used in a wide range of application
                             domains (e.g., loan applications, healthcare, hiring, criminal justice, etc.). There is mounting
                             concern that the complexity and opacity of ML models perpetuates systemic biases and discrimination reflected in
                             training data. The naive way to determine whether a model is biased is to compare its predictions on
@@ -30,7 +30,7 @@ export default function Research() {
                     <div className={styles.review}> 
                         <h2 className={styles.reviewTitle}>Under Review</h2>
                         <h3> The &#39;Who,&#39; &#39;How,&#39; and &#39;When,&#39; of Elite Political Discourse on Twitter/X Before and After the Murder of George Floyd.</h3>
-                        <div className={styles.coauthors}> Alyssa Smith, <u>Ahana Bhattacharya</u>, Holliday Sims, Kenneth Joseph</div>
+                        <div className={styles.coauthors}> Alyssa Smith, <u>Ahana Bhattacharya</u>, Holliday Sims, and Kenneth Joseph</div>
                         {/* <div className={styles.conference}></div> */}
                         <div className={styles.abstract}>
                             <p><b>Abstract</b>: Most U.S. Twitter/X users are not exposed to, and do not engage with, much political talk on average, yet strong evidence indicates that many Americans 
