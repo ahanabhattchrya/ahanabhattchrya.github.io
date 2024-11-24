@@ -7,7 +7,7 @@ export default function Research() {
                 <div className={styles.interest}>
                     <p className={styles.interestTitle}>Area(s) of Interest</p>
                     <hr></hr>
-                    <p>My interests lie broadly in <b>algorithmic fairness</b> &mdash; particularly in the domains of hiring, education, healthcare, and criminal justice &mdash; as well as <b>AI governance</b> and <b>tech policy</b>. I would like to to use theoretical models and causal inference to investigate the use of machine learning algorithms in social systems that have been historically discriminatory and biased.</p>
+                    <p>My interests lie broadly in <b>algorithmic fairness</b> &mdash; particularly in domains that use algorithmic decision-making &mdash; as well as <b>AI governance</b> and <b>tech policy</b>. I would like to to use theoretical models and causal inference to investigate the use of machine learning algorithms in social systems that have been historically discriminatory and biased.</p>
                     <p>In the near future, I plan on applying to PhD programs in Computer Science that focus on the above areas, and hope to integrate literature in <b>Psychology</b>, <b>Sociology</b>, <b>Economics</b>, <b>Queer Theory</b>, and <b>Critical Race Theory</b> into my work.</p>
                 </div>
                 <div className={styles.papers}>
