@@ -16,13 +16,16 @@ export default function Home() {
         </div>
         <div className={styles.textBox}>
           <div className={styles.text}>
-            <p>
-            Hi! My name is Ahana Bhattacharya, and I&apos;m a software engineer in NYC. I recently graduated from the University at Buffalo with a B.S. in Computer Science and a minor in Mathematics, where I worked 
-            with <b><a href="https://cse.buffalo.edu/cubelab/people/">Kenny Joseph</a></b> in the <b><a href="https://cse.buffalo.edu/cubelab/">cUBe Lab</a></b>. I also work with <b><a href="https://romilapradhan.github.io/romila/">Romila Pradhan
-            </a></b> in the <b><a href="https://romilapradhan.github.io/">Responsible Data Science Lab</a></b> at Purdue University. Feel free to read more about my research interests <b><a href="/research">here</a></b>.
+            <p>  
+            
+            
+            Hi there! I&apos;m an interdisciplinary researcher and a first-year Computer Science Ph.D. student at Brown University. 
+            I am advised by <b><a href="https://vivo.brown.edu/display/suresh">Suresh Venkatasubramanian</a></b> and affiliated with the <b><a href="https://cntr.brown.edu/">CNTR.</a></b>
+            Prior to Brown, I was a software engineer in NYC, and before that, I graduated from the University at Buffalo with a B.S. in Computer Science and a minor in Mathematics.
+            At UB, I worked with <b><a href="https://cse.buffalo.edu/cubelab/people/">Kenny Joseph</a></b> in the <b><a href="https://cse.buffalo.edu/cubelab/">cUBe Lab</a></b>. Feel free to read more about my research interests <b><a href="/research">here</a></b>.
             </p>
             <p>
-            I grew up in Tōkyō, where I spent my high school years cafe and bookstore hopping — a tradition I continue in the city as well! In my free time,  I <del>try to</del> like to <b><a href="/travel">travel</a></b> and document my adventures through film photography. :) 
+            I grew up in Tōkyō, where I spent my high school years cafe and bookstore hopping — a tradition I continue in NYC, Providence, and Boston! In my free time,  I <del>try to</del> like to <b><a href="/travel">travel</a></b> and document my adventures through film photography. :) 
             </p>
           </div>
           {/* <hr className={styles.divider}></hr>
