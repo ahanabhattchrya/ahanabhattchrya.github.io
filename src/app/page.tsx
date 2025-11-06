@@ -19,8 +19,7 @@ export default function Home() {
             <p>  
             
             
-            Hi there! I&apos;m an interdisciplinary researcher and a first-year Computer Science Ph.D. student at Brown University. 
-            I am advised by <b><a href="https://vivo.brown.edu/display/suresh">Suresh Venkatasubramanian</a></b> and affiliated with the <b><a href="https://cntr.brown.edu/">CNTR.</a></b>
+            Hi there! I&apos;m a first-year Computer Science Ph.D. student at Brown University, where I&apos;m advised by <b><a href="https://vivo.brown.edu/display/suresh">Suresh Venkatasubramanian</a></b> and affiliated with the <b><a href="https://cntr.brown.edu/">CNTR.</a></b>
             Prior to Brown, I was a software engineer in NYC, and before that, I graduated from the University at Buffalo with a B.S. in Computer Science and a minor in Mathematics.
             At UB, I worked with <b><a href="https://cse.buffalo.edu/cubelab/people/">Kenny Joseph</a></b> in the <b><a href="https://cse.buffalo.edu/cubelab/">cUBe Lab</a></b>. Feel free to read more about my research interests <b><a href="/research">here</a></b>.
             </p>
