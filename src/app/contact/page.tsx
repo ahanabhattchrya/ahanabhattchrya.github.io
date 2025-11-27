@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <main className = {styles.main}>
             <div className = {styles.text}>
-                <p>Feel free to reach out at <a href="mailto:ahana_bhattacharya@buffalo.edu">ahana_bhattacharya[at]brown[dot]edu</a> to grab a cup of coffee or just chat!</p>
+                <p>Feel free to reach out at <a href="mailto:ahana_bhattacharya@brown.edu">ahana_bhattacharya[at]brown[dot]edu</a> to grab a cup of coffee or just chat!</p>
                 <p>If you’re new to NYC like me (or not) and are looking for coffee/matcha shops, here are a few of my favorite ones:</p>
                 <ol className={styles.coffeeShops}>
                     <li className={styles.coffeeShopsItem}>Semicolon Cafe</li>
